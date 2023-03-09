@@ -1,4 +1,4 @@
-import { ChangeEvent, useRef, useState } from "react"
+import { ChangeEvent, useRef } from "react"
 
 interface IProps {
   index: number

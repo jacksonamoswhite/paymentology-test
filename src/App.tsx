@@ -1,5 +1,5 @@
 import "./App.css"
-import { ChangeEvent, useEffect, useMemo, useState } from "react"
+import { ChangeEvent, useMemo, useState } from "react"
 import Papa from "papaparse"
 
 import { Frame } from "./components/Frame"
@@ -9,7 +9,6 @@ import { ComparedResult } from "./components/ComparedResult"
 import { Records } from "./components/Records"
 
 function App() {
-  // State to store parsed data
   const [form, setForm] = useState<{ file1: File | null; file2: File | null }>({
     file1: null,
     file2: null,
